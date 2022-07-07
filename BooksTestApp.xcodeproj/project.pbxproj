@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		54C5247E2876FF07007C4CAB /* BooksTestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C5247D2876FF07007C4CAB /* BooksTestAppApp.swift */; };
-		54C524802876FF07007C4CAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C5247F2876FF07007C4CAB /* ContentView.swift */; };
+		54C524802876FF07007C4CAB /* FooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C5247F2876FF07007C4CAB /* FooViewController.swift */; };
 		54C524822876FF0B007C4CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C524812876FF0B007C4CAB /* Assets.xcassets */; };
 		54C524852876FF0B007C4CAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C524842876FF0B007C4CAB /* Preview Assets.xcassets */; };
 		54C5248F2876FF0C007C4CAB /* BooksTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C5248E2876FF0C007C4CAB /* BooksTestAppTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		54C5247A2876FF07007C4CAB /* BooksTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BooksTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C5247D2876FF07007C4CAB /* BooksTestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTestAppApp.swift; sourceTree = "<group>"; };
-		54C5247F2876FF07007C4CAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		54C5247F2876FF07007C4CAB /* FooViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooViewController.swift; sourceTree = "<group>"; };
 		54C524812876FF0B007C4CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54C524842876FF0B007C4CAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		54C5248A2876FF0B007C4CAB /* BooksTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooksTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				54C5247D2876FF07007C4CAB /* BooksTestAppApp.swift */,
-				54C5247F2876FF07007C4CAB /* ContentView.swift */,
+				54C5247F2876FF07007C4CAB /* FooViewController.swift */,
 				54C524812876FF0B007C4CAB /* Assets.xcassets */,
 				54C524832876FF0B007C4CAB /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54C524802876FF07007C4CAB /* ContentView.swift in Sources */,
+				54C524802876FF07007C4CAB /* FooViewController.swift in Sources */,
 				54C5247E2876FF07007C4CAB /* BooksTestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
